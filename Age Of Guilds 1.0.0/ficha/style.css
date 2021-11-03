@@ -1,0 +1,167 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(45, 48, 48);
+}
+
+h1 {
+    color: azure;
+    text-align: center;
+}
+
+h2 {
+    color: azure;
+    text-align: center;
+    position: relative;
+    top: 200%;
+}
+
+h3 {
+    color: azure;
+    padding: 11px;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.boards {
+    background: rgb(0, 183, 255);
+    border-radius: 5px;
+    margin-top: 30px;
+    width: 140px;
+    height: 730px;
+    min-width: 100px;
+    min-height: 100%;
+}
+
+.card {
+    color: rgb(0, 0, 0);
+    font-size: 5pt;
+    padding: 15px;
+    margin: 5;
+    min-height: auto;
+    width: 100px;
+    box-shadow: 2px 2px 2px;
+    background-color: azure;
+    border-radius: 5px;
+}
+
+.dropzone {
+    padding: 10px;
+}
+
+.board h3 {
+    padding: auto;
+    margin: 0;
+}
+
+.bonus {
+    color: tomato;
+    text-align: center;
+    font-size: 8pt;
+    padding: auto;
+}
+
+.content {
+    text-align: center;
+    font-size: 10pt;
+}
+
+.numero {
+    font-size: 15pt;
+    padding: auto;
+    color: rgb(240, 23, 113);
+    text-align: center;
+    width: 115;
+    background: transparent;
+    border: transparent;
+}
+
+.nomedojogador {
+    position: relative;
+    left: 1500px;
+    bottom: 800px;
+    border: transparent;
+    width: 300px;
+    padding: 5PX;
+}
+
+.nomedopersonagem {
+    position: relative;
+    bottom: 700px;
+    left: 160px;
+    width: 400px;
+}
+
+.nomedeheroi {
+    position: relative;
+    bottom: 721px;
+    left: 565;
+    width: 200px;
+}
+
+.tipodeheroi {
+    position: relative;
+    bottom: 743px;
+    left: 770;
+    width: 150px;
+}
+
+.nivel {
+    width: 50px;
+    position: relative;
+    bottom: 730px;
+    left: 510;
+}
+
+.idade {
+    position: relative;
+    bottom: 730px;
+    left: 540px;
+    width: 50;
+}
+
+.altura {
+    position: relative;
+    bottom: 752px;
+    width: 50px;
+    left: 680px;
+}
+
+.peso {
+    position: relative;
+    bottom: 752px;
+    width: 50px;
+    left: 700px;
+}
+
+.pontosdevida {
+    position: relative;
+    bottom: 772px;
+    width: 100px;
+    left: 160px;
+}
+
+.pontosderecurso {
+    position: relative;
+    bottom: 794px;
+    width: 125px;
+    left: 280px;
+}
+
+.iniciativa {
+    position: relative;
+    bottom: 815px;
+    width: 60px;
+    left: 430px;
+}
+
+.fotodopersonagem {
+    position: relative;
+    bottom: 743px;
+    left: 770;
+    width: 100px;
+}

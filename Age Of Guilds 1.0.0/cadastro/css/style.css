@@ -1,0 +1,15 @@
+h1{ 
+    text-align: center;
+    font-size: 40pt;
+}
+font-face {
+    font-family: Poppins-Medium;
+    src: url('../fonts/poppins/Poppins-Medium.ttf');
+}
+
+html {
+    height: 100%;
+    font-family: Poppins-Regular, sans-serif;
+ 
+}
+

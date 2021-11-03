@@ -1,0 +1,120 @@
+<!DOCTYPE html 5>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gerador de ficha AOG</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<h1> Gerador De Fichas AOG</h1>
+
+<h2> Ainda Em Construção</h2>
+
+<body>
+    <div class="boards" id="boards"> 
+        <div class="board">
+            <h3>Atributos</h3>
+            <dropzone>
+                <div class="card" draggable="true">
+                    <div class="status"></div>
+                    <div class="content" id="forca"> Força</div>
+                    <!-- <div contenteditable="true " class= "numero "> 15</div>   -->
+                    <input class="numero" type="number" id="input-forca" onchange="onChangeCardInput(this.value, 'bonus-forca') " min="1" max="20"></input>
+                    <div id="bonus-forca" class="bonus"> 0</div>
+
+
+
+                </div>
+                <P></P>
+                <dropzone>
+                    <div class="card" draggable="true">
+                        <div class="status"></div>
+                        <div class="content" id="destreza"> Destreza</div>
+                        <input class="numero" type="number" onchange="onChangeCardInput(this.value, 'bonus-Destreza') " min="1" max="20"></input>
+                        <div id="bonus-Destreza" class="bonus"> 0</div>
+
+
+
+                    </div>
+                </dropzone>
+                <p></p>
+                <dropzone>
+                    <div class="card" draggable="true">
+                        <div class="status"></div>
+                        <div class="content" id="const"> Const</div>
+                        <input class="numero" type="number" onchange="onChangeCardInput(this.value, 'bonus-const') " min="1" max="20"></input>
+                        <div id="bonus-const" class="bonus"> 0</div>
+
+
+
+                    </div>
+                </dropzone>
+                <p></p>
+                <dropzone>
+                    <div class="card" draggable="true">
+                        <div class="status"></div>
+                        <div class="content" id="intelecto"> Intelecto</div>
+                        <input class="numero" type="number" onchange="onChangeCardInput(this.value, 'bonus-intelecto') " min="1" max="20"></input>
+                        <div id="bonus-intelecto" class="bonus"> 0</div>
+
+
+
+                    </div>
+                </dropzone>
+                <p></p>
+                <dropzone>
+                    <div class="card " draggable="true ">
+                        <div class="status "></div>
+                        <div class="content" id="saber"> Saber</div>
+                        <input class="numero" type="number" onchange="onChangeCardInput(this.value, 'bonus-saber') " min="1" max="20"></input>
+                        <div id="bonus-saber" class="bonus "> 0</div>
+
+
+                    </div>
+                </dropzone>
+                <p></p>
+                <dropzone>
+                    <div class="card " draggable="true ">
+                        <div class="status "></div>
+                        <div class="content" id="carisma"> Carisma</div>
+                        <input class="numero" type="number" onchange="onChangeCardInput(this.value, 'bonus-carisma') " min="1" max="20"></input>
+                        <div id="bonus-carisma" class="bonus"> 0</div>
+
+
+                    </div>
+                </dropzone>
+                <p></p>
+                <dropzone>
+                    <div class="card" draggable="true">
+                        <div class="status "></div>
+                        <div class="content" id="sorte"> Sorte</div>
+                        <input class="numero" type="number" onchange="onChangeCardInput(this.value, 'bonus-sorte') " min="1" max="100"></input>
+                </dropzone>
+            </dropzone>
+            </div>
+
+        </div>
+<form action="">
+        <input type="text " autocomplete="on " class=nomedojogador placeholder="Nome Do Jogador "></input>
+        <input type="text " autocomplete="on " class="nomedopersonagem " placeholder=" Nome Do Personagem "></INput>
+        <input type="text " autocomplete="on " class="nomedeheroi " placeholder="Nome De Heroi "></input>
+        <input type="text " autocomplete="on " class="tipodeheroi " placeholder="Tipo De Heroi "></input>
+        <input type="number " autocomplete="on " class="nivel " placeholder="Nv. "></input>
+        <input type="text " autocomplete="on " class="idade " placeholder="Idade "></input>
+        <input type="text " autocomplete="on " class="altura " placeholder="Altura "></input>
+        <input type="text " autocomplete="on " class="peso " placeholder="Peso "></input>
+        <input type="text " autocomplete="on " class="Pontosdevida " placeholder="Pontos De Vida "></input>
+        <input type="text " autocomplete="on " class="Pontosderecurso " placeholder="Pontos De Recurso "></input>
+        <input type="text " autocomplete="on " class="iniciativa " placeholder="Iniciativa "></input>
+</form>
+
+
+
+
+        <script src="index.js"></script>
+</body>
+
+</html>
